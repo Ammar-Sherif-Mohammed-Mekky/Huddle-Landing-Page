@@ -19,7 +19,7 @@
 }
 
 body{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     background: var(--background);
     background-image: url(/images/bg-desktop.svg) ;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ button:hover{
 .social-media {
    display: flex;
    gap: 40px;
-   margin-top: 110px;
+   margin-top: 200px;
    margin-left: 1200px;
   }
 
@@ -113,17 +113,3 @@ button:hover{
       color: var(--hover);
       border: 1px solid var(--hover);
   }
-
-  .attribution { 
-      /* background: rgba(93, 0, 199, 0.534);; */
-      /* padding-left: 20px; */
-      margin-left: 5px;
-      margin-bottom: 20px;
-      font-family: var(--heading-font);
-      color: rgba(255, 255, 255, 0.521);
-    font-size: 11px;
-
-}
-    .attribution a { 
-        
-        color: rgba(255, 255, 255, 0.521) }

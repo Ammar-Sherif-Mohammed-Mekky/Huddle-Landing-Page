@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root{
+    --background:hsl(257, 40%, 49%);
+    --white: rgb(255, 255, 255);
+    --hover: hsl(300, 69%, 71%);
+    --shadow:-2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+    --body-font: "Open Sans", sans-serif;
+    --heading-font: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+body{
+    overflow-y: hidden;
+    background: var(--background);
+    background-image: url(/images/bg-desktop.svg) ;
+    background-repeat: no-repeat;
+} 
+
+.logo{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.logo img{
+    width: 230px;
+}
+
+.illustration{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.head{
+    font-family: var(--heading-font);
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 600;
+    max-width: 500px;
+    margin-left: 850px;
+    margin-top: -450px;
+    text-transform: capitalize;
+}
+
+.par{
+    font-family: var(--body-font);
+    font-weight: 400;
+    color: var(--white);
+    max-width: 490px;
+    margin-left: 850px;
+    margin-top: 30px;
+    word-spacing: 3px;
+}
+
+
+.button{
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+button{
+    padding: 15px 50px 15px 50px;
+    border: none;
+    border-radius: 30px;
+    color:var(--background);
+    background:var(--white);
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: var(--shadow);
+}
+
+button:hover{
+    background: var(--hover);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.social-media {
+   display: flex;
+   gap: 40px;
+   margin-top: 110px;
+   margin-left: 1200px;
+  }
+
+  .media-icon {
+    align-items: center;
+    width: 1rem;
+    height: 3rem;
+  }
+
+  .fab {
+    border-radius: 50%;
+    padding: 10px 1px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    color: var(--white);
+    width: 2.5rem;
+    text-align: center;
+  }
+
+  .fab:hover{
+      cursor: pointer;
+      color: var(--hover);
+      border: 1px solid var(--hover);
+  }
+
+  .attribution { 
+      /* background: rgba(93, 0, 199, 0.534);; */
+      /* padding-left: 20px; */
+      margin-left: 5px;
+      margin-bottom: 20px;
+      font-family: var(--heading-font);
+      color: rgba(255, 255, 255, 0.521);
+    font-size: 11px;
+
+}
+    .attribution a { 
+        
+        color: rgba(255, 255, 255, 0.521) }
